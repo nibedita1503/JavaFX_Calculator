@@ -31,7 +31,7 @@ Built entirely through code (no FXML), this project showcases GUI layout, event 
 
 ## 📷 Screenshots
 
-> ⚠ Add your screenshots (e.g. build image, app UI) in /images folder
+
 
 
 
