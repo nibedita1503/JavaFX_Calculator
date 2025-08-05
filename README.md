@@ -40,11 +40,6 @@ Built entirely through code (no FXML), this project showcases GUI layout, event 
 
 ---
 
-## 🗂 Project Structure
-
-Calculator/ ├── src/ │   ├── Main.java │   ├── CalculatorUI.java │   └── Logic.java ├── images/ │   └── calculator-ui.png ├── README.md └── .idea/
-
----
 
 ## ⚙ Run Instructions (IntelliJ IDEA)
 
@@ -78,7 +73,7 @@ Calculator/ ├── src/ │   ├── Main.java │   ├── CalculatorU
 ## 👤 Developer
 
 *Nibedita Ghosh*  
-(Add GitHub, email, or LinkedIn if you'd like)
+(https://www.linkedin.com/in/nibedita-ghosh-8460b7319)
 
 ---
 
@@ -93,4 +88,4 @@ This project is licensed under the *MIT License*.
 
 ---
 
-Let me know if you want a downloadable .md file, group members added, or want to include GIFs, logs, or test cases in the README.
+
