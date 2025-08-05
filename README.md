@@ -36,7 +36,7 @@ Built entirely through code (no FXML), this project showcases GUI layout, event 
 
 
 - *UI Preview (JavaFX App):*  
-  ![UI Screenshot](images/calculator.png)
+  ![UI Screenshot](images/calculator.png.png)
 
 ---
 
