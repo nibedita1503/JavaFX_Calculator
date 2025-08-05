@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/24.0.1"
+            fx:controller="com.calculator.CalculatorController"
+            prefHeight="450.0" prefWidth="300.0">
+
+   <top>
+      <HBox alignment="CENTER_RIGHT" prefHeight="80.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="txt_result" text="" prefWidth="280.0" prefHeight="60.0"
+                   style="-fx-background-color: lightgrey; -fx-padding: 10;"
+                   alignment="CENTER_RIGHT">
+               <font>
+                  <Font size="24.0"/>
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+
+   <center>
+      <VBox spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox spacing="5.0">
+               <children>
+                  <Button text="7" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="8" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="9" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="/" onAction="#handleButtonClick" prefWidth="60"/>
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <Button text="4" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="5" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="6" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="*" onAction="#handleButtonClick" prefWidth="60"/>
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <Button text="1" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="2" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="3" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="-" onAction="#handleButtonClick" prefWidth="60"/>
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <Button text="0" onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="." onAction="#handleButtonClick" prefWidth="60"/>
+                  <Button text="C" onAction="#handleClear" prefWidth="60"/>
+                  <Button text="+" onAction="#handleButtonClick" prefWidth="60"/>
+               </children>
+            </HBox>
+            <HBox spacing="5.0">
+               <children>
+                  <Button text="=" onAction="#handleEqualButton" prefWidth="255"/>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets top="10.0" left="10.0" right="10.0" bottom="10.0"/>
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
